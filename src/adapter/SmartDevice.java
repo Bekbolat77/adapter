@@ -1,4 +1,7 @@
 package adapter;
 
-public class SmartDevice {
+public interface SmartDevice {
+    void powerOn();
+    void powerOff();
+    void setBrightness(int level);
 }
